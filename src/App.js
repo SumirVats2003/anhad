@@ -1,9 +1,10 @@
 import "./App.css";
+import Hero from "./Screens/Hero";
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='text-3xl'>This is heading</h1>
+      <Hero />
     </div>
   );
 }
